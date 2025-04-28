@@ -1,0 +1,17 @@
+name: time_series_model_selection
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.11
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - black
+  - flake8
+  - isort
+  - pytest
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
