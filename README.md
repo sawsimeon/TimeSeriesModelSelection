@@ -42,4 +42,6 @@ Key objectives:
    ```bash
    git clone https://github.com/sawsimeon/TimeSeriesModelSelection.git
    cd TimeSeriesModelSelection
+   conda env create -f environment.yml
+   conda activate time_series_model_selection
    ```
